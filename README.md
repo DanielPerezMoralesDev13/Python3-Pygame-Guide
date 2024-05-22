@@ -106,6 +106,10 @@
     sudo pacman -Syu python3
     ```
 
+    ```bash
+    sudo pacman -Syu python-pygame
+    ```
+
 2. **Verify the installation of Python3:**
 
     ```bash
@@ -114,7 +118,7 @@
 
 ### ***Install Pygame Arch Linux***
 
-1. **Install pip (if not installed):**
+1. **Install pip3 (if not installed):**
 
     ```bash
     sudo pacman -Syu python-pip
@@ -123,7 +127,7 @@
 2. **Install Pygame using pip:**
 
     ```bash
-    pip install pygame
+    pip3 install pygame
     ```
 
 3. **Verify the installation of Pygame:**

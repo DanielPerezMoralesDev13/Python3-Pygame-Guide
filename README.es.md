@@ -113,16 +113,20 @@
 
 ### ***Instalar Pygame Arch Linux***
 
-1. **Instalar pip (si no está instalado):**
+1. **Instalar pip3 (si no está instalado):**
 
     ```bash
     sudo pacman -Syu python-pip
     ```
 
-2. **Instalar Pygame usando pip:**
+    ```bash
+    sudo pacman -Syu python-pygame
+    ```
+
+2. **Instalar Pygame usando pip3:**
 
     ```bash
-    pip install pygame
+    pip3 install pygame
     ```
 
 3. **Verificar la instalación de Pygame:**
